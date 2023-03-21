@@ -1,11 +1,10 @@
 *.json
 *.jsons
 *.txt
+*.csv
 /bad-data
 /bad
 /good-data
-*.csv
-*.xlsx
 *.zip
 good-data-stocksdone/товары-2022-05-13-1448-418384.json.badmaybe
 *.badmaybe
@@ -13,3 +12,6 @@ good-data-stocksdone/товары-2022-05-13-1448-418384.json.badmaybe
 __pycache__/functions.cpython-39.pyc
 *.bak2
 *.bak3
+*.7z
+/data-month
+/data-3month

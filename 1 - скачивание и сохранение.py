@@ -12,7 +12,7 @@ for period in periods:
     js = json.load(urllib.request.urlopen(f'https://trending-searches.wb.ru/file?period={period}'))
     if (js['error'] == False):
         data = base64.b64decode(js['data']['file'])
-        fp = open(f"data/wbqueries-{period}-{date}.csv", "wb")
+        fp = open(f"data-{period}/wbqueries-{period}-{date}.csv", "wb")
         fp.write(data)
     else:
         print (f'ERROR downloading ... {period}')
