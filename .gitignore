@@ -2,6 +2,7 @@
 *.jsons
 *.txt
 *.csv
+*.bat
 /bad-data
 /bad
 /good-data
